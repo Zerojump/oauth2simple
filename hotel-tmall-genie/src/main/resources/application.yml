@@ -1,0 +1,23 @@
+udp.server:
+  host: localhost
+  port: 5107
+  protocolPrefix: yykk
+
+oauth2:
+  client:
+    client-id: hotel-client
+    client-secret: hotel-secret
+    access-token-validity-seconds: 172800
+    refresh-token-validity-seconds: 259200
+
+  authorization:
+    username: admin
+    password: admin
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/
+      suffix: .jsp
+server:
+  port: 8011
